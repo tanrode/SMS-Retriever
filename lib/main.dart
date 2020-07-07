@@ -47,7 +47,7 @@ class _smsTestState extends State<smsTest> {
                 }
             }
           */  
-        if(s.address.compareTo('+918217229861')==0)
+        if(s.address.compareTo('+91Phno')==0)
         {
             setState(() {
             msg=s.body;
@@ -66,7 +66,7 @@ class _smsTestState extends State<smsTest> {
   {
     //messages = await sms.getAllSms;
     /*await sms.querySms(
-      address: '+918217229861',
+      address: '+91PhNo',
     );
     */
      listenSMS();
